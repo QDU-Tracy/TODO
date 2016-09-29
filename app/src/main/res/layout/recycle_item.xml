@@ -1,0 +1,83 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:elevation="8dp"
+    card_view:cardCornerRadius="2dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="86dp">
+
+        <ImageView android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/thumbnail_image"
+            android:layout_marginStart="16dp"
+            android:layout_alignTop="@+id/linearLayout"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toRightOf="@id/thumbnail_image"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/recycle_title"
+                android:layout_width="match_parent"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_height="wrap_content"
+                android:textColor="@color/mdtp_transparent_black"
+                tools:text="Title"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/recycle_date_time"
+                android:layout_width="match_parent"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:textColor="@color/mdtp_transparent_black"
+                tools:text="Date and Time"/>
+
+            <TextView
+                android:id="@+id/recycle_repeat_info"
+                android:layout_width="match_parent"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:textColor="@color/mdtp_transparent_black"
+                tools:text="Repeat No and Type"/>
+
+        </LinearLayout>
+
+        <!--<ImageView android:layout_width="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:background="@color/mdtp_transparent_black"-->
+            <!--android:src="@drawable/ic_notifications_off_grey600_24dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:id="@+id/active_image"/>-->
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

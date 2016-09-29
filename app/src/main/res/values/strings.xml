@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">TO-DO</string>
+
+    <!-- Strings related to login -->
+    <string name="action_search">搜索</string>
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码（可选）</string>
+    <string name="action_sign_in">登陆或注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">Email格式不正确</string>
+    <string name="error_invalid_password">密码过短</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">此项需要填写</string>
+
+    <string name="title_activity_main">TO-DO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">注销</string>
+    <string name="action_about">关于软件</string>
+    <string name="add_reminder">TODO</string>
+    <string name="details">Details</string>
+    <string name="date">日期</string>
+    <string name="time">时间</string>
+    <string name="repeat">重复</string>
+    <string name="repeat_off">关</string>
+    <string name="repeat_no">重复间隔 </string>
+    <string name="repeat_type">重复类型</string>
+    <string name="title_activity_add_reminder">添加事项</string>
+    <string name="title_activity_edit_reminder">编辑事项</string>
+
+    <string name="action_discard_reminder">不保存</string>
+    <string name="action_save_reminder">保存事项</string>
+    <string name="no_reminders">点击下方的添加按钮添加事项！</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>一直</item>
+        <item>可能时</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>1 小时</item>
+        <item>3 小时</item>
+        <item>6 小时</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register__main">注册</string>
+    <string name="main_name1">TO DO LIST</string>
+    <string name="main_name2">TODO</string>
+    <string name="main_name3">请登录</string>
+    <string name="main_name4">Email</string>
+    <string name="main_name5">密码</string>
+    <string name="main_name6">注册</string>
+    <string name="main_name7">登录</string>
+    <string name="register_name1">Join us</string>z
+    <string name="register_name2">注册</string>
+    <string name="register_name3">请输入</string>
+    <string name="register_name4">Email</string>
+    <string name="register_name5">密码</string>
+    <string name="register_name6">取消</string>
+    <string name="register_name7">注册</string>
+    <string name="title_activity_b__main2">B_Main2Activity</string>
+    <string name="e_username_hint1">账号不符合格式</string>
+    <string name="e_username_hint2">密码不符合格式</string>
+</resources>

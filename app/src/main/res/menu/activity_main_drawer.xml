@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="今天" />
+        <item
+            android:id="@+id/nav_upcoming7"
+            android:icon="@android:drawable/ic_menu_week"
+            android:title="未来7天" />
+        <item
+            android:id="@+id/nav_item"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="项目" />
+        <item
+            android:id="@+id/nav_priority"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="优先级" />
+        <item android:title="Extras">
+            <menu>
+                <item
+                    android:id="@+id/nav_BackG"
+                    android:icon="@android:drawable/ic_menu_crop"
+                    android:title="背景" />
+
+                <item
+                    android:id="@+id/nav_Chengjiu"
+                    android:icon="@android:drawable/ic_menu_compass"
+                    android:title="成就" />
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@android:drawable/ic_menu_preferences"
+                    android:title="设置" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
